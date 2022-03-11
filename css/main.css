@@ -1,0 +1,135 @@
+
+/* MAIN */
+.main {
+  background-image: url(../images/Hungary_Budapest.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 70px;
+  position: relative;
+}
+.main .inner {
+  height: 900px;
+}
+.main .question-box {
+  width: 800px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.main .question-box .question {
+  font-family: Noto Sans KR;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  left: 120px;
+  top: 10%;
+}
+.main .question-box .country-box {
+  width: 500px;
+  height: 120px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+  position: absolute;
+  left: 15%;
+  margin: auto;
+  bottom: 20%;
+  display: flex;
+}
+.main .question-box .country-box .departure-box {
+  width: 50%;
+  height: 100%;
+}
+.main .question-box .country-box .destination-box .title,
+.main .question-box .country-box .departure-box .title {
+  width: 100%;
+  height: 25%;
+  border-bottom: 1px solid #cccccc;
+  font-family: 'Righteous';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .question-box .country-box .destination-box .title>span,
+.main .question-box .country-box .departure-box .title>span{
+  font-size: 15px;
+  color: rgb(94, 92, 92)
+}
+.main .question-box .country-box .destination-box .destination__country,
+.main .question-box .country-box .departure-box .departure__country {
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .question-box .country-box .departure-box .departure__country::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 40%;
+}
+.main .question-box .country-box .destination-box .destination__country input,
+.main .question-box .country-box .departure-box .departure__country input {
+  border: none;
+  font-size: 25px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+}
+.main .question-box .country-box .destination-box .destination__country input::placeholder,
+.main .question-box .country-box .departure-box .departure__country input::placeholder {
+  color: black;
+}
+.main .question-box .country-box .destination-box .destination__country input:focus,
+.main .question-box .country-box .departure-box .departure__country input:focus {
+  outline: none;
+}
+.main .question-box .country-box .destination-box {
+  width: 50%;
+  height: 100%;
+}
+.search {
+  width: 110px;
+  height: 120px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: absolute;
+  right: 5%;
+  bottom: 20%;
+  cursor: pointer;
+  transition: .4s;
+  color: black;
+  font-family: Noto Sans KR;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search:hover {
+  background-color: #158fff;
+  color: #fff;
+}
+.search span {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
